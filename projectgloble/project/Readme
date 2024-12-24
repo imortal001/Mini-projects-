@@ -1,0 +1,81 @@
+# User Profile Dashboard
+
+A modern React application that displays user profile information in a beautifully designed card layout with tabbed navigation.
+
+## Features
+
+- 🎨 Modern UI with Tailwind CSS
+- 📱 Responsive design
+- 🔄 Real-time data fetching
+- 📑 Tabbed navigation (Profile, Career, Interests, Settings)
+- ⚡ Built with Vite
+- 💎 Lucide React icons
+- 📦 TypeScript support
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone [repository-url]
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── ProfileCard.tsx       
+│   ├── TabNavigation.tsx    
+│   └── tabs/
+│       ├── ProfileTab.tsx   
+│       ├── CareerTab.tsx    
+│       ├── InterestsTab.tsx 
+│       └── SettingsTab.tsx  
+├── types/
+│   └── index.ts         
+├── App.tsx              
+└── main.tsx             
+```
+
+## API Integration
+
+The application fetches user data from the Random User API:
+```
+https://randomuser.me/api/?page=1&results=1&seed=abc
+```
+
+## Technologies Used
+
+- React 18
+- TypeScript
+- Tailwind CSS
+- Vite
+- Lucide React (for icons)
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
